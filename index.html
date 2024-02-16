@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Tony</title>
+
+    <!-- Fuentes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- AOS scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Iconos Font Awesome -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b2639be63f.css" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+        <div class="d-lg-flex flex-lg-row-reverse aheader">
+            <ul 
+                data-aos="fade-left" data-aos-duration="1000"
+                class="nav justify-content-center">
+                <a class="nav-link text-white fs-4 fw-bold" href="#inicio" title="Inicio">Inicio</a>
+                <a class="nav-link text-white fs-4 fw-bold" href="#pocodemi">Un poco de mí</a>
+                <a class="nav-link text-white fs-4 fw-bold" href="#portafolio">Portafolio Web</a>
+                <a class="nav-link text-white fs-4 fw-bold" href="#contacto">Contacto</a>
+            </ul>
+            <aside class="d-flex justify-content-center align-items-center gap-3 p-2">
+                <i class="fa-solid fa-circle c1"></i>
+                <i class="fa-solid fa-circle c2"></i>
+                <i class="fa-solid fa-circle c3"></i>
+            </aside>
+        </div>
+        <section id="inicio" class="pt-3 amplio">
+            <article class="container">
+                <h1 data-aos="fade-right" data-aos-duration="1000"
+                    class="pb-4">
+                    <span class="bg-info pe-5 letradesa">Desarrollador Web</span>
+                    <br>
+                    <span class="parrafo">Front-End</span>
+                    <br>
+                    <span class="parrafo">Diseño de páginas web</span>
+                </h1>
+                <a class="btn btn-info px-5 btnc" href="#contacto" role="button">Contáctame</a>
+            </article>
+            <article class="container pt-5">
+                <img class="img-fluid" src="img/monitor-web1.png" alt="">
+            </article>
+        </section>
+    </header>
+
+    <main id="pocodemi" class="pocodemi">
+        <h1>Un poco de mí</h1>
+        <h2>¿A qué me dedico?</h2>
+        <article>
+            <p class="titulo">Desarrollador Web y diseñador, con conocimientos de comercial.</p>
+            <p>Actualmente me encargo del desarrollo de páginas para proyectos en los cuales se requiera un diseño desde cero.</p>
+            <p>Estoy en continuo crecimiento, adaptándome a las futuras demandas y actuales tecnologías en el campo del diseño y desarrollo web en general. </p>
+            <p>Soy un apasionado de mi trabajo, aportando mis conocimientos y habilidades, así como nuevas ideas, soluciones, seguimiento y personalización de calidad al cliente para y por su objetivo en cada proyecto</p>
+        </article>
+    </main>
+    <section class="habilidades">
+        <article class="contenido-habilidades">
+            <h1 data-aos="fade-right" data-aos-duration="1000">
+                Conocimientos técnicos y habilidades
+            </h1>
+            <h2>
+                <i class="fas fa-code"></i>
+                Desarrollo Front-End (vista de cliente)
+            </h2>
+            <ul data-aos="fade-up" data-aos-duration="1000">
+                <li>Html5</li>
+                <li>Css3</li>
+                <li>Flexbox</li>
+                <li>Grid</li>
+                <li>Javascript</li>
+                <li>Responsive Web Design (Diseño adaptable)</li>
+                <li>UX/UI - Interfaz de Usuario</li>
+                <li>Visual Studio Code</li>
+                <li>Bootstrap 5</li>
+                <li>Control de versiones: Git/GitHub</li>
+            </ul>
+            <h3>
+                <i class="fas fa-server"></i>
+                Desarrollo BackEnd (vista de servidor)
+            </h3>
+            <ul data-aos="fade-up" data-aos-duration="1000">
+                <li>Php 8</li>
+                <li>Laravel 9</li>
+                <li>POO</li>
+                <li>MVC</li>
+                <li>API RESTful con PHP</li>
+                <li>Wordpress</li>
+            </ul>
+            <p class="curriculum">
+                <a href="https://drive.google.com/open?id=1d7sFQAnVoucZ5ki-13dlQF1mvTMvY08_&usp=drive_fs" target="_blank">
+                    <i class="fas fa-arrow-alt-circle-down descargar"></i> 
+                Descargar CV
+                </a>
+            </p>
+        </article>
+    </section>
+    <section id="portafolio" class="portafolio">
+        <h1>Portafolio</h1>
+        <article
+            data-aos="fade-up" data-aos-duration="1000"
+            class="row row-cols-md-3">
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://blogdecafetony.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/BlogCafe.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://festivalrockretamar.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/festival.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://mueblestony.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/tiendaMuebles.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://inmobiliariadelujo.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/inmobiliariadelujo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://delightful-hummingbird-89b513.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/podcast.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col pt-4 transicion">
+                <div class="overflow-hidden">
+                    <a href="https://vipadetalles.netlify.app/" target="_blank">
+                        <img class="img-fluid" src="img/vipadetalles.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <span>
+        <a id="back2Top" href="#" style="display: inline;">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+    </span>
+    <footer>
+        <article id="contacto" class="datos-contacto">
+            <ul>
+                <li>
+                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                    (+34) 617 052 237
+                </li>
+                <li>
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    asanzag
+                    <i class="fas fa-at arroba"></i>
+                    gmail.com
+                </li>
+            </ul>
+        </article>
+        <aside class="datos-contacto">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/asanzag/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-3x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/desawebtony/" target="_blank">
+                        <i class="fab fa-instagram-square fa-3x"></i>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </aside>
+        <section class="datos-personales">
+            <p class="creditos">Antonio Sanz Aguilera - Desarrollador de páginas web </p>
+            <p class="creditos copyright">
+                2023
+                <span class="creditos">Todos los derechos reservados</span>
+            </p>
+        </section>
+    </footer>
+
+<!-- AOS Scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- Boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/b2639be63f.js" crossorigin="anonymous"></script>
+</body>
+</html>
